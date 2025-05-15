@@ -1,6 +1,8 @@
-# 🔧 Drone-simulation
+# 🔧 MATLAB-Projects
 
-This a project to simulate a quadrirotor linear dynamics drone in MATLAB using known formulas of motion. 
+This a repository containing 2 of my MATLAB projects. 
+The first projects goal is to simulate a quadrirotor linear dynamics drone in MATLAB using known formulas of motion. 
+The second project is the simulation of a non-linear plane control.
 
 ## 📚 Table of Contents
 
@@ -21,13 +23,21 @@ This a project to simulate a quadrirotor linear dynamics drone in MATLAB using k
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/amun_nx/Drone-simulation.git
-cd Drone-simulation
+git clone https://github.com/amun_nx/MATLAB-Projects.git
+cd MATLAB-Projects
 ```
-### 2. Run the project
+### 2. Run the drone project
 ```matlab
+cd MATLAB-Projects/Drone-simulation
 run('Linear.m')
 open('Drone_project.slx')
+```
+
+### 3. Run the plane project
+```matlab
+cd MATLAB-Projects/nonlinear plane control
+run('Linearized_system.m')
+open('Linearized_system_simulink.slx')
 ```
 
 ## 🛠Requirements
