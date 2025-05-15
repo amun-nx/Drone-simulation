@@ -28,7 +28,7 @@ cd MATLAB-Projects
 ```
 ### 2. Run the drone project
 ```matlab
-cd MATLAB-Projects/Drone-simulation
+cd MATLAB-Projects/Drone simulation
 run('Linear.m')
 open('Drone_project.slx')
 ```
